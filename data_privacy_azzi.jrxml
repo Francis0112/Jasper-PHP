@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.1.final using JasperReports Library version 6.21.0-4f56c4f36cd19e17675219a9ac4692d5f0f13b06  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="data_privacy_mmc" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="499dffdb-5832-48ec-9577-5973bf183053">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="name" class="java.lang.String"/>
+	<parameter name="address" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="748" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="66" width="555" height="20" uuid="9c5e93e2-7262-4f30-a50f-1e2aa34dcc11"/>
+				<textElement verticalAlignment="Middle">
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DATA PRIVACY NOTICE AND CONSENT FORM (EMPLOYEES)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="93" width="555" height="248" uuid="db0be3f6-a254-4320-8ce4-69a7bac36cb1"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[In compliance with the requirements of the Data Privacy Act, we would like to secure your consent on the general use and sharing of information obtained from you during the course of your employment with any member of Auto Zoomzoom Inc. (hereinafter referred to in this document as the “Company”) 1 or from third parties. These data, which include your personal or sensitive personal information2, may be collected, processed, stored, updated, or disclosed by the Company for purposes such as but not limited to payroll, benefits administration, tax processing, government compliance, to respond to emergencies, to comply with the Company’s internal policies and its reporting obligations3 to governmental authorities4 under applicable laws5and other purposes6 related to your employment.
+
+Your consent will allow the Company to process, collect, use, store, or disclose your information to other members, to governmental authorities, and to third parties, as may be necessary7. The personal data gathered from you shall be stored in the pertinent Information and Communications System and Filling System of the Company, such as but not limited to, password-protected computer devices, secured filing cabinets, HRIS, and payroll system. Where necessary to further its business and to keep its security software tools up-to-date, the company reserves the right to change and/or update its Information and Communication and Filing System.
+
+Your information may continue to be collected, stored, processed and/or shared for the duration of your employment with Auto Zoomzoom Inc. and until ten (10) years8 from the date of severance with any member of the company.
+
+Your consent will allow authorized employees of the Dearborn Group to process your data in relation to your employment, government compliance, benefits administration among others. The Company may disclose your personal information to its related companies, government agencies and third parties for legal purposes. The Company’s privacy policy (available at https://www.dearbornmotors.com/Page/41/privacy-policy) generally contains information on how we collect and process your information and states how you can seek to access or correct any personal information the Company holds about you, how to complain about a privacy breach by the Company and how it will deal with a privacy complaint.
+
+Please be assured that the Company is committed to ensuring the confidentiality of your information under Republic Act No. 10173, “Data Privacy Act of 2012”, and will exert reasonable efforts to protect against unauthorized use or disclosure.
+
+Should you also wish to access, update, or correct certain personal information, or withdraw consent to the use of any of your information as set out in this letter, you may email hrd@dearbornmotors.com or contact the number 02 842-3681 local 8211 privacy@dearbornmotors.com. Likewise, you may file complaints with, and/or seek assistance from the National Privacy Commission.
+
+For complete reference on the Data Privacy Act, you may access the National Privacy Commission Website at https://privacy.gov.ph]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="119" y="351" width="20" height="20" uuid="86cffadb-6727-4b31-b358-f5af8216f264"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="148" y="357" width="91" height="15" uuid="79a1226e-623d-439b-a432-a11dd3ae327f"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Yes, I give my consent]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="290" y="351" width="20" height="20" uuid="92a7b4f8-5d03-40ee-97b0-942801292cd6"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="319" y="357" width="120" height="15" uuid="eae66f85-3490-45c2-95a8-534df632eae8"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[I decline to give my consent]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="12" y="423" width="150" height="20" uuid="047cb52e-b481-4019-97af-864ff3b48462"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{name}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="445" width="180" height="1" uuid="0d9a1e6e-5fe8-47d6-837c-a011f07f6b15"/>
+			</line>
+			<staticText>
+				<reportElement x="31" y="446" width="129" height="17" uuid="7d999bf0-8875-4497-b750-cf0d23d65f67"/>
+				<textElement>
+					<font size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[EMPLOYEE PRINTED NAME]]></text>
+			</staticText>
+			<line>
+				<reportElement x="187" y="445" width="180" height="1" uuid="cb103d24-f3d0-45c3-b8a6-3b6fbea4ad3a"/>
+			</line>
+			<staticText>
+				<reportElement x="247" y="446" width="59" height="17" uuid="f3196607-7bf9-4431-9f08-7ad7abb63d25"/>
+				<textElement>
+					<font size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[SIGNATURE]]></text>
+			</staticText>
+			<line>
+				<reportElement x="374" y="445" width="180" height="1" uuid="f0550652-f993-45fd-8e39-859e715bad01"/>
+			</line>
+			<staticText>
+				<reportElement x="453" y="446" width="41" height="17" uuid="f3929742-1beb-4177-8a43-fa69c58dae54"/>
+				<textElement>
+					<font size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Date]]></text>
+			</staticText>
+			<textField pattern="MMMMM dd, yyyy">
+				<reportElement x="385" y="423" width="160" height="20" uuid="6dc043f1-63fa-4027-96e1-2362a0c7e84a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="480" width="555" height="186" uuid="9a4267c7-90c9-43ff-ab63-e38ef5a70e68"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[1    Refers to Auto Zoomzoom Inc., its subsidiaries, affiliates, representatives and agents.
+2    Personal information or sensitive personal information includes your name, address, gender, age, marital status, contact details, birthday, SSS, Philhealth, Pag Ibig, TIN, attendance record (manually or by biometrics), education, previous employment information, financial information, medical information, spouse details, preferences, behavior, and other information classified as “personal data,” “personal information,” or “sensitive personal information” under the Data Privacy Act,
+3    Reporting obligations means obligations of the company to comply with (a) Applicable Law, and internal policies or procedures, or (b) any demand and/or requests from Government Authorities for purposes of reporting, regulatory reporting, disclosure or other obligations under Applicable Law;
+4 Governmental authority means the government of the Republic of the Philippines or a foreign country, as may be applicable, or any political subdivision thereof, and any entity exercising executive, legislative, judicial, regulatory, or administrative functions of or pertaining to the government
+5      Applicable Law refers to means any statute, law, constitution, regulation, rule, ordinance, order, decree, directive, guideline, policy, requirement or other governmental restriction or any similar form of decision of, or determination of any of the foregoing by, any national, regional or local government or political subdivision, commission, authority, tribunal, agency or entity of the Republic of the Philippines or a foreign country, as may be applicable.
+6    Other purposes include but are not limited to performance evaluation, administrative purposes, health and insurance, separation, exit interview process and processing of last pay,
+7 Refers to a third party (local or overseas):
+Who acquires or will acquire the rights and obligations of any member of the Company;
+Who is in negotiations with any member of the Company in connection with employment, benefits administration of any member of Auto Zoomzoom Inc.;
+Who processes information, transactions, services, or accounts, on behalf of the Company (including but not limited to courier agencies; telecommunication information technology companies; payment, payroll, collection, training, and storage agencies; entities providing customer support, and other similar entities); or
+Who requires the information for market research, product and business analysis, audit and administrative purposes, for offering of products and services, or for marketing or advertising activities undertaken by the Company.
+8    Refer to Section 2 of BIR Amending Regulations No. 17-2013 dealing with the “Preservation of Books of Accounts and Other Accounting Records”]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="5" y="9" width="248" height="37" uuid="2de5eacd-3273-4cca-83a8-1bb7bfcbf13b"/>
+				<textElement textAlignment="Left">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[AUTO ZOOMZOOM INC.		
+Makati | Sta Rosa | Iloilo]]></text>
+			</staticText>
+			<image scaleImage="FillFrame">
+				<reportElement positionType="FixRelativeToBottom" stretchType="RelativeToTallestObject" x="365" y="9" width="182" height="40" uuid="8e525fe0-7491-480a-abc6-c09061e26d29">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA["C:/xampp/htdocs/aa1/test1/admin/vendor/geekcom/phpjasper/examples/images-logos/azzi-logo.jpg"]]></imageExpression>
+			</image>
+		</band>
+		<band height="698">
+			<staticText>
+				<reportElement x="0" y="76" width="555" height="30" uuid="dfe360d8-a804-4220-af64-a2c76b1ca295"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[AUTO ZOOMZOOM INC.
+NON-DISCLOSURE AGREEMENT]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="110" width="555" height="33" uuid="b629c56a-a86b-4040-a02b-03f2ca2aea95"/>
+				<textElement markup="styled">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["I, "+"<style isBold='true'>" +$P{name} + "</style>"+", of legal age and is a resident of "+"<style isBold='true'>"+$P{address} +"</style>"+", in consideration of my employment or continued employment in "+"<style isBold='true'>"+ "AUTO ZOOMZOOM INC." +"</style>"+". (hereinafter referred to as the “Company”), hereby agree as follows:"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="170" width="554" height="451" uuid="93b3f69c-f013-4409-924f-02ee3d1b596b"/>
+				<textElement textAlignment="Left">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[During the term of my employment with the Company and thereafter, I shall hold in strictest confidence and will not disclose, use, or publish any of the Company’s Confidential Information1, as well as any of the Personal Data2 collected and processed by the Company in the course of its key business operations and processes, except as such disclosure, use, or publication may be required in connection with my employment with the Company, or unless expressly authorized by specific Company resolution. In case of disclosure, use, or publication, I shall be responsible for any violation of this Agreement by the person or entity I have disclosed the Confidential Information and/or Personal Data to.
+
+I shall use all reasonable efforts to preserve the secrecy and confidentiality of the Confidential Information and to prevent such Confidential Information and/or Personal Data from falling into the public domain or possession of persons other than those authorized hereunder to have such information, including implementation of reasonable security measures and operating procedures. In addition, I undertake to immediately notify the Company in writing of any misuse or misappropriation of the Confidential Information and/or Personal Data which may come to my attention.
+
+1  “Confidential Information” means information or material that is valuable to the company and not generally known or readily ascertainable in the industry. It may be written, oral, expressed in electronic media, or otherwise disclosed, and may be tangible or intangible. This includes, but is not limited to:
+a.  Information concerning the Company’s products and services;
+b.  Information concerning the company’s operation and marketing, including trade secrets, consolidated business services, cost information, accounting and unpublished financial information, and other information relating to the internal activities of Company’s affairs and any other information received or prepared due to one’s employment with Company;
+c.  Information concerning the Company’s clients, suppliers, and employees; and
+d.  Any other information not generally known to the public which, if misused or disclosed, may reasonably be expected to adversely affect the Company.
+
+All materials and information acquired in the course of, or with a view to, employment is presumed Confidential Information. Notwithstanding the unauthorized disclosure of Confidential Information, the intellectual property rights pertaining thereto remain to be the sole property of the Company.
+
+“Personal Information” refers to any information, whether recorded in a material form or not, from which the identity of an individual is apparent or can be reasonably and directly ascertained by the entity holding the information, or when put together with other information would directly and certainly identify an individual.
+
+“Sensitive Personal Information” refers to Personal Information:
+
+a.  about an individual race, ethnic origin, marital status, age, color, and religious, philosophical, or political affiliations;
+b.  about an individual’s health, education, genetic, or sexual life, or to any proceeding for any offense committed or alleged to have been committed by such individual, the disposal of such proceedings, or the sentence of any court in such proceedings;
+c.  issued by government agencies peculiar to an individual, which includes, but is not limited to, social security members, previous or current health records, licenses or its denials, suspension, or revocation, and tax returns; and
+d.  specifically established by an executive order or an act of Congress to be kept classified.
+
+2 “Personal Data” refers to all types of Personal Information, including Sensitive Personal Information, collected and processed by the Company.  Personal Data may be classified as follows:
+
+a.  “Confidential Personal Data” pertains to all other information to which access is restricted, an of which, processing requires the written consent of the individual concerned, such as but not limited to Employee 201 files and information contained therein, device passwords, bank account numbers, ATM card numbers, credit card numbers, and the like. It also includes Personal Information and Sensitive Personal Information; and
+b.  “Public Personal Data” pertains to Personal Information of individuals which may be disclosed to the public by the Company due to, or as required by, its business operations, and for government regulatory compliance and company disclosures.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="146" width="555" height="20" uuid="87f5be81-f34e-4288-bfb2-1ac4c973fae7"/>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[1.  General Confidentiality Obligations.]]></text>
+			</staticText>
+			<break>
+				<reportElement x="0" y="670" width="551" height="1" uuid="606a9e37-9319-4c65-b1b6-893141ea18b5"/>
+			</break>
+		</band>
+		<band height="697">
+			<staticText>
+				<reportElement x="0" y="60" width="554" height="100" uuid="26f6c2fb-8105-40d9-bd47-9b293d0b79b3"/>
+				<textElement textAlignment="Left">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Upon expiration of my employment contract with the Company, I will deliver to it any and all memoranda, storage media, including software, documents, and computer printouts, together with all copies thereof, any other material containing Confidential Information and/or Personal Data. I further agree that any property situated in the Company’s premises and owned by the Company, including disks, flash drives, and other storage media, filing cabinets or other work areas, will be subject to the Company’s inspection at any time, with or without notice.
+
+I shall not reverse engineer or reverse compile, whether to determine content or manner of production, refine, or customize, in any way whatsoever, all or any part of the Confidential Information and/or Personal Data without the Company’s prior written consent, nor shall I copy, reproduce of in any form, or store in any retrieval system or database any Confidential Information and/or Personal Data without the prior consent of the Company, except for such copies and storage as are strictly required by the Company.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="36" width="555" height="20" uuid="1793367a-3c08-409c-84a3-b464bce5dd66"/>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[2.  Return of Company Documents.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="189" width="554" height="61" uuid="15ef28cf-e81c-4dfc-85d0-925cdf062e62"/>
+				<textElement textAlignment="Left">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Any unauthorized disclosure of the Confidential Information and/or Personal Data will result in the immediate termination of my employment with the Company. The Company shall have the right to enforce this Agreement and any of its provisions by injunction, specific performance, or other equitable relief, without bond, without prejudice to any other rights and remedies that the Company may have in case of breach of this Agreement.
+In the event the Company is compelled to seek judicial relief in order to enforce its rights under this Agreement, I, in addition to damages that may arise due to violation of the terms of the Agreement, hereby agree to pay P500,000.00 as liquidated damages, plus additional amount as and by way of attorney’s fees, aside from the costs of litigation and other expenses which the Company may be entitled to.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="165" width="555" height="20" uuid="e1c2eeb6-88b2-4d08-ae13-3a1b24fded18"/>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[3.  Remedies.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="280" width="554" height="30" uuid="b9c82074-a556-4cc9-ac46-b8870dac5135"/>
+				<textElement textAlignment="Left">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Should any provision of this Agreement be held void or unenforceable by any competent authority, the remaining provisions not affected thereby shall subsist and remain operative.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="256" width="555" height="20" uuid="c79b81c7-2609-4c93-ae77-8ec9d998a3ed"/>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[4.  Separability Clause. ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="337" width="554" height="53" uuid="02f8f18b-e90c-4e89-b8d1-09d2a504290b"/>
+				<textElement textAlignment="Left">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[by the Company of any breach of this Agreement shall be a waiver of any proceeding or succeeding breach. No waiver by the Company of any right under this Agreement shall be construed as a waiver of any other right. The Company shall not be required to give notice to enforce strict adherence to all terms of Agreement.
+I agree and understand that nothing in this Agreement shall confer on me any right with respect to continuation of my employment with the Company, nor shall it interfere in any way with the Company’s right to terminate my employment.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="313" width="555" height="20" uuid="8ca16417-90b7-4f49-b57a-e4d8648572b6"/>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[5.  Non-waiver.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="419" width="554" height="46" uuid="70f9c54d-c48a-46c9-9c91-a37e2e005412"/>
+				<textElement textAlignment="Left">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[This Agreement will be binding upon by heirs, administrators, executors, agents, and other legal representatives, and will be for the benefit of the Company, its successors, and its assigns.
+This Agreement shall be effective from the date of my employment with the Company. Any obligation arising from the said Agreement shall survive, exist and continue after the expiration or termination of my employment.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="395" width="555" height="20" uuid="3b6160da-156b-4444-adeb-fdbe5e160e03"/>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[6.  Effectivity/Survival of Obligations.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="495" width="554" height="25" uuid="3342bcdd-595d-4261-8b33-fce793f6d67e"/>
+				<textElement textAlignment="Left">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[The provisions of this Agreement shall be construed in accordance with the laws of the Philippines. Any judicial action arising out of the interpretation or implementation of the provisions of this Agreement shall be brought before the proper courts of ________________________________.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="471" width="555" height="20" uuid="d93f2343-b63b-47d2-bd0c-5aec52b36faf"/>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[7.  Governing Law and Venue of Action.]]></text>
+			</staticText>
+			<break>
+				<reportElement x="0" y="650" width="552" height="1" uuid="16c58f9e-ed11-4dd9-ab43-9e2f242963fa"/>
+			</break>
+		</band>
+		<band height="697">
+			<staticText>
+				<reportElement x="1" y="100" width="554" height="28" uuid="98b2956d-9adf-426e-9f56-ea30d12123d5"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[In WITNESS WHEREOF, the parties hereto have signed these presents on this___________________________________day of_____________________________20 at____________________________________.
+]]></text>
+			</staticText>
+			<line>
+				<reportElement x="320" y="184" width="233" height="1" uuid="5376ee03-c3ee-4ca4-a5de-7891ed74e604"/>
+			</line>
+			<staticText>
+				<reportElement x="351" y="184" width="180" height="17" uuid="e88e244a-e82a-495b-95c5-c4d974cf5312"/>
+				<textElement>
+					<font size="10" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Signature over printed name/Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="220" width="554" height="18" uuid="c71402f3-9c57-4144-a876-bc438b7cbe4c"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Noted by:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="269" width="233" height="1" uuid="1006b37b-40e5-442c-83e6-bde5000b2ad2"/>
+			</line>
+			<staticText>
+				<reportElement x="0" y="269" width="191" height="30" uuid="befe0e8e-8e07-44ac-be82-d7bb21a50721"/>
+				<textElement textAlignment="Left">
+					<font size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[	Signature over printedname/Date	Auto Zoomzoom Inc..]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="0" y="339" width="555" height="69" uuid="b6ab921d-c908-498b-9d48-bf48e5017445"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["SUBSCRIBED AND SWORN to before me this,____________________________day of_________________________in the city/municipality of_______________________________, affiant exhibiting his/her Government ID as his/her competent evidence of identity."+"\n\n"+
+"This instrument refers to a Non-Disclosure Agreement consisting of ("+ $V{PAGE_NUMBER} +") pages, including this page whereon this Acknowledgement is written and which is signed by the parties"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="418" width="555" height="30" uuid="8d5215aa-a79f-42ab-92ea-1af8bacdc7ec"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[WITNESS MY HAND AND SEAL on the date and place first written above.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="488" width="131" height="60" uuid="7216d4ea-7a70-4914-835f-231362d4a1ef"/>
+				<text><![CDATA[Doc No.________________; Page No._______________; Book No._______________; Series of 20_____________ 		
+]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="54" splitType="Stretch">
+			<staticText>
+				<reportElement x="230" y="10" width="30" height="20" uuid="610ec6e2-240f-4fdb-be18-401188479027"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Page:]]></text>
+			</staticText>
+			<textField evaluationTime="Master">
+				<reportElement x="270" y="10" width="92" height="19" uuid="1d3618d0-78be-4564-88e6-1b461df29e72"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{MASTER_CURRENT_PAGE}  + " of " + $V{MASTER_TOTAL_PAGES}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>

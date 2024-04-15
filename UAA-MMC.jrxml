@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.1.final using JasperReports Library version 6.21.0-4f56c4f36cd19e17675219a9ac4692d5f0f13b06  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="UAA-MMC" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="992f7d3b-5465-4eaa-9c59-2f2bd4ec188e">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="name" class="java.lang.String"/>
+	<parameter name="emp_no" class="java.lang.String"/>
+	<parameter name="branch" class="java.lang.String"/>
+	<parameter name="position" class="java.lang.String"/>
+	<parameter name="email" class="java.lang.String"/>
+	<parameter name="email_password" class="java.lang.String"/>
+	<parameter name="eric_id" class="java.lang.String"/>
+	<parameter name="eric_password" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="64" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="10" width="260" height="38" uuid="15611668-2c12-4971-ae24-9d501fe58c13"/>
+				<textElement textAlignment="Left">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[MIZUKAWA MOTORS CORPORATION                   Batangas | Imus | Lucena | Iligan]]></text>
+			</staticText>
+			<image scaleImage="FillFrame">
+				<reportElement positionType="FixRelativeToBottom" stretchType="RelativeToTallestObject" x="420" y="8" width="130" height="40" uuid="f978a2ca-495b-4931-b10a-cca7c32c93a1">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA["C:/xampp/htdocs/aa1/test1/admin/vendor/geekcom/phpjasper/examples/images-logos/mmc-logo.png"]]></imageExpression>
+			</image>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="693" splitType="Stretch">
+			<line>
+				<reportElement x="2" y="6" width="550" height="1" uuid="89e32741-4563-4f68-9ac9-d7c56d16a5ed"/>
+			</line>
+			<staticText>
+				<reportElement x="140" y="21" width="240" height="19" uuid="d8e25328-a785-41c3-8906-b0484bb31591"/>
+				<textElement textAlignment="Center">
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[EMPLOYEE USER ACCESS AGREEMENT										
+]]></text>
+			</staticText>
+			<line>
+				<reportElement x="2" y="51" width="550" height="1" uuid="42803482-90e4-4f1d-99b0-55aa0a5cb394"/>
+			</line>
+			<staticText>
+				<reportElement x="20" y="60" width="50" height="20" uuid="54a40972-7196-4b31-9c93-6819fabfd16d"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Name:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="70" y="60" width="170" height="20" uuid="7d8bcc65-3c0c-4eca-9db2-82e0963bd726"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{name}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="20" y="82" width="50" height="20" uuid="6d4500a3-bf9b-4551-8ac7-3229d901b953"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Emp No:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="70" y="82" width="170" height="20" uuid="fbe45849-fb13-4e86-9df5-854c571176f6"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{emp_no}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="20" y="102" width="50" height="20" uuid="17435d3c-61b8-44a4-b338-0c7766a60cfb"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Branch:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="70" y="102" width="170" height="20" uuid="c3556fa0-1e59-4e23-bd65-8514b8f62159"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{branch}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="20" y="124" width="50" height="20" uuid="ff7ca47a-e4b7-48ac-af17-c414d1e297a1"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Position:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="70" y="124" width="170" height="20" uuid="60c6e0fd-a3bc-4310-9f78-c813df8e4d3d"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{position}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="250" y="60" width="80" height="20" uuid="ed55f2a7-6ebf-4793-a457-f3a671b0cc56"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Email Address:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="340" y="60" width="212" height="20" uuid="52b56255-5879-461a-8287-c0b66ae18460"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{email}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="250" y="82" width="90" height="20" uuid="1734c6fe-fc1a-4430-aad5-47060783188f"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Email Password:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="340" y="82" width="212" height="20" uuid="2e913485-3902-4244-92f5-53ff10fdf82b"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{email_password}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="250" y="104" width="80" height="20" uuid="66bbd725-99ca-4c73-9d20-035973e27e14"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Eric DMS ID:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="340" y="102" width="212" height="20" uuid="e742195a-3505-4e1d-b97b-31368bff571d"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{eric_id}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="250" y="124" width="80" height="20" uuid="7ffc7add-2c3b-4d26-a946-7c64c42e53e6"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Eric Password:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="340" y="124" width="212" height="20" uuid="983fd9ee-d367-4b19-bee2-0a27e2d6bcfd"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{eric_password}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="2" y="152" width="550" height="1" uuid="7be99f4c-5a1b-42b3-a946-fc875b6e435a"/>
+			</line>
+			<staticText>
+				<reportElement x="2" y="156" width="550" height="50" uuid="322e7fd9-333c-455f-8522-d14fd490ec06"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[This Document summarizes the applicable policy for the use and protection of Mizukawa Motors Corporation employees’ systems user account. By accepting system user account and password, the user acknowledges the below conditions.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="209" width="550" height="20" uuid="51bf8960-5bba-4afe-9c0f-86d3402896d8"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[General Account]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="3" y="231" width="550" height="20" uuid="e8a310bd-dd40-40a9-90b4-d4376be4d3cc"/>
+				<textElement>
+					<font size="11" isBold="false"/>
+				</textElement>
+				<text><![CDATA[These conditions apply to all user accounts issued by Mizukawa Motors Corporation]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="256" width="550" height="90" uuid="629bc82c-3977-4346-9d1a-83e922b9c278"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[1.      User account is issued to Mizukawa Motors Corporation employees only.
+2.      User account is nonexclusive and nontransferable; Nonexclusive indicates that user account is owned by Mizukawa Motors Corporation and users have no right to expect any privacy. Nontransferable signifies that user account is solely to be used by the assignee.
+3.      User agrees not to use User Account in any manner that violates the laws of whatever jurisdiction which the User is subject to.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="356" width="550" height="20" uuid="3a56bc8c-2033-4c08-8d79-ccf3f9a907a2"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Email Account]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="3" y="378" width="550" height="20" uuid="cc719407-6b1e-4fdd-b646-de1189a32bab"/>
+				<textElement>
+					<font size="11" isBold="false"/>
+				</textElement>
+				<text><![CDATA[These conditions apply for Email Accounts issued by Mizukawa Motors Corporation]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="400" width="550" height="286" uuid="42e74182-4e84-46ed-b155-b0273f03ec16"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[1.      Email account is issued to Mizukawa Motors Corporation employees only.
+2.      User is allocated with a maximum of 500MB Disk Space on Mail Server.
+3.      User must download their email on a regular basis to avoid over quota of allocated disk space. User that has reached over quota will no longer receive new messages.
+4.      User is responsible for the proper use of assigned e mail account(s). Email is provided as a professional resource to assist users in fulfilling their official goals.
+5.      User should ensure that the files to be sent and received are free from malware. Do not open any attachments, unless it came from a known source. Delete those mails which are not relevant to user. It might contain a virus that may corrupt user’s workstation.
+6.      User agrees that Email accounts issued are not to be used in any personal transactions such as online purchasing, or to be used as an account on any Social Networking Websites such as Facebook, Twitter, Instagram, Tiktok and the like.
+7.      Mizukawa Motors Corporation remains to be the owner of the email; However, Mizukawa Motors Corporation declaims all liability in any manner that User violates the laws of whatever jurisdiction which the User is subject to.
+8.      User agrees, at certain circumstances, it may be necessary for Mizukawa Motors Corporation Administrators to access email files in connection with abuse incidents and violation of any kind on Company Code of Conduct.
+9.      User is responsible for the proper use of assigned e mail account(s). Email is provided as a professional resource to assist users in fulfilling their official goals.]]></text>
+			</staticText>
+		</band>
+		<band height="693">
+			<line>
+				<reportElement x="2" y="428" width="180" height="1" uuid="62d8d6fa-45bd-44fd-a47f-96d38bf668e6"/>
+			</line>
+			<staticText>
+				<reportElement x="35" y="429" width="109" height="17" uuid="465c48d7-838f-4d47-8fac-59579ac8f9b3"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Employee Signature]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="450" width="29" height="17" uuid="fa1ba9e5-026e-4884-b444-0641fed8a3a9"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Date:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="34" y="450" width="328" height="16" uuid="c6742a0e-9941-4495-baac-50bd6921cc43"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new SimpleDateFormat("MM/dd/yyyy").format(new Date())]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="2" y="477" width="360" height="26" uuid="702fa061-ba86-4f79-af32-d1431e7b5583"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["UAA " + $P{emp_no} + " " + $P{name} + " " + $P{branch}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="14" y="412" width="150" height="20" uuid="49f629b6-58a1-49e3-a098-65c60e5dc2cc"/>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{name}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="5" y="14" width="550" height="20" uuid="a384435d-4297-4b1a-a140-e8aecf35047e"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[In-Appropriate Use]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="4" y="41" width="550" height="127" uuid="9d8e5b87-7d2d-49a6-b823-ca37cb429ba7"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[1.      The creation nor exchange of harassing, obscene or threatening messages.
+2.      The unauthorized exchange of proprietary information (or any other privileged) and confidentiality of sensitive information.
+3.      The creation nor exchange of information violating any laws, including copyright laws.
+4.      Knowingly transmitting message containing virus, worms or Trojan.
+5.      Misrepresentation on the identity of the email sender.
+6.      The use or “attempt” to use the accounts of others without their permission.	
+7.      Forwarding chain letters, jokes, advertisements, junk mail or any electronic mails not relevant to our nature of work.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="4" y="176" width="550" height="20" uuid="51ee4fd9-2769-492b-8dfc-0f8681d608e1"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Expiration/Deactivation/Deletion of Accounts]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="3" y="204" width="550" height="20" uuid="434d2ee5-b0c2-4c66-bd51-b748808465ab"/>
+				<textElement>
+					<font size="11" isBold="false"/>
+				</textElement>
+				<text><![CDATA[An account will be Expired/Deactivated or deleted under the following conditions.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="234" width="550" height="90" uuid="cde36a5d-081d-4d10-b7e8-fd5713baef11"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[1.      Request by Administrator or Officer thru email for deactivation or deletion.
+2.      Inactive account for 30 calendar days (without prior notice), or disabled accounts due to inactivity, users may request for account re activation thru email.	
+3.      Reactivation of account due to improper use is subject for approval from Officer or Administrator.
+4.      Resigned, Retired, and Terminated employees or End of Contract - User account will be terminated a week before the Users last day of work.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="340" width="549" height="31" uuid="bb28f222-2f96-4ac4-a958-72f829b18b97"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[By signing this form, I agree that I have read and understand the conditions on the user account issued, and I agree to abide with the same.]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch">
+			<staticText>
+				<reportElement x="420" y="10" width="30" height="20" uuid="bb691b23-27f7-4633-b635-ed69f98dc977"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Page:]]></text>
+			</staticText>
+			<textField evaluationTime="Master">
+				<reportElement x="460" y="10" width="92" height="19" uuid="876a79e6-0daf-46cd-bc85-a923752c903d"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{MASTER_CURRENT_PAGE}  + " of " + $V{MASTER_TOTAL_PAGES}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnFooter>
+</jasperReport>

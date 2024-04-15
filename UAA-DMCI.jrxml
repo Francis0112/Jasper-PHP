@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.1.final using JasperReports Library version 6.21.0-4f56c4f36cd19e17675219a9ac4692d5f0f13b06  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="UAA-DMCI" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="1059e08b-2353-47b8-a4be-d7e975f5b42a">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="name" class="java.lang.String"/>
+	<parameter name="emp_no" class="java.lang.String"/>
+	<parameter name="branch" class="java.lang.String"/>
+	<parameter name="position" class="java.lang.String"/>
+	<parameter name="sps_id" class="java.lang.String"/>
+	<parameter name="email" class="java.lang.String"/>
+	<parameter name="email_password" class="java.lang.String"/>
+	<parameter name="eric_id" class="java.lang.String"/>
+	<parameter name="eric_password" class="java.lang.String"/>
+	<parameter name="stars_id" class="java.lang.String"/>
+	<parameter name="sps_password" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="57" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="10" width="260" height="38" uuid="384c3162-9dc4-4420-b6a4-aa822058df44"/>
+				<textElement textAlignment="Left">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DEARBORN MOTORS COMPANY, INC.
+“One Team, One Plan, One Goal”]]></text>
+			</staticText>
+			<image scaleImage="FillFrame">
+				<reportElement positionType="FixRelativeToBottom" stretchType="RelativeToTallestObject" x="420" y="8" width="130" height="40" uuid="d1b10c29-cac0-4e47-a138-8a927d09a94c">
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<imageExpression><![CDATA["C:/xampp/htdocs/aa1/test1/admin/vendor/geekcom/phpjasper/examples/images-logos/ford-logo.png"]]></imageExpression>
+			</image>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="700" splitType="Stretch">
+			<line>
+				<reportElement x="2" y="6" width="550" height="1" uuid="2ccadec5-132f-4903-875d-45439260c277"/>
+			</line>
+			<staticText>
+				<reportElement x="141" y="15" width="240" height="19" uuid="0af42757-44de-490c-ba03-b4a4577b7a04"/>
+				<textElement textAlignment="Center">
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[EMPLOYEE USER ACCESS AGREEMENT										
+]]></text>
+			</staticText>
+			<line>
+				<reportElement x="2" y="41" width="550" height="1" uuid="39ff443e-2c00-4441-8e45-25441f2badce"/>
+			</line>
+			<staticText>
+				<reportElement x="5" y="46" width="50" height="20" uuid="6279b5ec-4190-42a8-a1f8-63a52fea9778"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Name:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="55" y="46" width="170" height="20" uuid="91080649-709a-46bb-a4bf-595caace7033"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{name}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="5" y="68" width="50" height="20" uuid="378f3806-1f52-4441-97b8-4c3c6e241a2b"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Emp No:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="55" y="68" width="170" height="20" uuid="8826edea-4a93-41d9-8ed2-4bc63ecaf660"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{emp_no}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="5" y="88" width="50" height="20" uuid="d846ca30-8376-46d2-a622-f8172290ee03"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Branch:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="55" y="88" width="170" height="20" uuid="9bf3cc70-5bf9-4876-97f2-5bd7230fe5b4"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{branch}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="5" y="110" width="50" height="20" uuid="3eeff136-3b75-4c39-987b-c8b2d26f4c86"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Position:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="55" y="110" width="170" height="20" uuid="ea6296ac-0e62-447a-bf16-ca24c3a216f7"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{position}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="246" y="46" width="80" height="20" uuid="93ed47d6-6a11-40ed-8ab6-aea00fb2164e"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Email Address:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="336" y="46" width="212" height="20" uuid="32a26cbc-98da-42fa-b90d-4911e46bc592"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{email}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="246" y="68" width="90" height="20" uuid="f6eae2e1-dc32-4404-b1a4-15deaddc64ff"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Email Password:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="336" y="68" width="212" height="20" uuid="a01e64a8-af61-4066-9b92-8119a729dee5"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{email_password}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="246" y="90" width="80" height="20" uuid="ab401592-c320-4375-9b75-f3f37b8c479c"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Eric DMS ID:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="336" y="88" width="212" height="20" uuid="7dad12e5-4e0a-42af-8681-576dc4aa1089"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{eric_id}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="246" y="110" width="80" height="20" uuid="5d95c2ad-4dea-4ac6-801f-bc85dfa45bcd"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Eric Password:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="336" y="110" width="212" height="20" uuid="f0a92349-bc35-488b-ac6c-a3f3de7d30ff"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{eric_password}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="3" y="214" width="550" height="1" uuid="7f161ba7-3923-4c2a-93ee-aac8a4880697"/>
+			</line>
+			<staticText>
+				<reportElement x="246" y="152" width="54" height="20" uuid="1dc0833f-8115-48a0-9f03-bafab57883d2"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[SPS ID:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="336" y="152" width="212" height="20" uuid="e37c1219-7c3f-48a0-880c-2c4a4f94b886"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{sps_id}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="246" y="131" width="54" height="20" uuid="3e33ce50-0738-4884-8b15-8a1b2ab7233c"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[Stars ID:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="336" y="131" width="212" height="20" uuid="9c326cd6-d3c0-41bd-92e3-ac839c82a1f4"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{stars_id}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="229" y="197" width="326" height="15" forecolor="#F70B07" uuid="0d6ee440-60e5-4634-88dc-b4afc45ef019"/>
+				<textElement>
+					<font size="9" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[*SPSID is used for CVP, DSG, PTS, SERVICE2, PANDA, GOALS, WINGSPAN					
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="246" y="174" width="90" height="20" uuid="eb553db1-e1ae-4fa8-a244-21674f514b70"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[SPS Password:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="336" y="174" width="212" height="20" uuid="8d223b3c-b5af-4be6-9a2e-8512fc10cd65"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{sps_password}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="2" y="220" width="551" height="50" uuid="ca0e34cb-de7d-4801-9420-4de114364cb5"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[This Document summarizes the applicable policy for the use and protection of Dearborn Motors Co. Inc. employees’ systems user account. By accepting system user account and password, the user acknowledges the below conditions.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="3" y="273" width="549" height="17" uuid="56c5887c-0b20-4ffb-88a0-a4c17203ee80"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[General Account]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="297" width="553" height="23" uuid="428d43df-f547-46fd-9e08-f83fd2c5ca42"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[These conditions apply to all user accounts issued by Dearborn Motors Co. Inc.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="320" width="553" height="80" uuid="7e2c5e8f-f544-4609-8714-b88ec82db307"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[1.      User account is issued to Dearborn Motors Co. Inc. employees only.	
+2.      User account is nonexclusive and nontransferable; Nonexclusive indicates that user account is owned by Dearborn Motors Co. Inc. and users have no right to expect any privacy. Nontransferable signifies that user account is solely to be used by the assignee.
+3.      User agrees not to use User Account in any manner that violates the laws of whatever jurisdiction which the User is subject to.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="3" y="402" width="549" height="17" uuid="2b3cb940-56d0-4289-bcde-558142450dd6"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Email Account]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="426" width="552" height="14" uuid="d1f233f7-3ef4-4168-9b91-b48f8ba764a1"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[These conditions apply for Email Accounts issued by Dearborn Motors Co. Inc.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="446" width="553" height="244" uuid="b8d43a17-4c65-4651-b528-a66041c3967b"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[1.      Email account is issued to Dearborn Motors Co. Inc. employees only.
+2.      User is allocated with a maximum of 500MB Disk Space on Mail Server.
+3.      User must download their email on a regular basis to avoid over quota of allocated disk space. User that has reached over quota will no longer receive new messages.
+4.      User is responsible for the proper use of assigned e mail account(s). Email is provided as a professional resource to assist users in fulfilling their official goals.
+5.      User should ensure that the files to be sent and received are free from malware. Do not open any attachments, unless it came from a known source. Delete those mails which are not relevant to user. It might contain a virus that may corrupt user’s workstation.
+6.      User agrees that Email accounts issued are not to be used in any personal transactions such as online purchasing, or to be used as an account on any Social Networking Websites such as Facebook, Twitter, Instagram, Tiktok and the like.
+7.      Dearborn Motors Co. Inc. remains to be the owner of the email; However, Dearborn Motors Co. Inc. declaims all liability in any manner that User violates the laws of whatever jurisdiction which the User is subject to.
+8.      User agrees, at certain circumstances, it may be necessary for Dearborn Motors Co. Inc. Administrators to access email files in connection with abuse incidents and violation of any kind on Company Code of Conduct.		
+9.      User is responsible for the proper use of assigned e mail account(s). Email is provided as a professional resource to assist users in fulfilling their official goals.]]></text>
+			</staticText>
+		</band>
+		<band height="678">
+			<textField>
+				<reportElement x="15" y="435" width="150" height="20" uuid="c08a6439-4feb-42dc-b603-29116952ae7a"/>
+				<textElement textAlignment="Center">
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{name}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="3" y="451" width="180" height="1" uuid="b5e8c53e-94ba-49a3-9111-2d827ce3db59"/>
+			</line>
+			<staticText>
+				<reportElement x="36" y="452" width="109" height="17" uuid="1878ba82-f3d2-4e57-b30b-e29bcd0d4c96"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Employee Signature]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="3" y="473" width="29" height="17" uuid="999401ac-54f6-486f-b183-f9472e8069df"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Date:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="35" y="473" width="328" height="16" uuid="329f8385-ba1c-4020-b46f-7770dd23d85e"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new SimpleDateFormat("MM/dd/yyyy").format(new Date())]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="3" y="500" width="360" height="26" uuid="becadd0a-44ab-4aaf-843f-ad4fa5c937a8"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA["UAA " + $P{emp_no} + " " + $P{name} + " " + $P{branch}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="3" y="9" width="552" height="30" uuid="26b4285f-c2a8-400f-bc5e-5a4b91bdbf6b"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[9.      User is responsible for the proper use of assigned e mail account(s). Email is provided as a professional resource to assist users in fulfilling their official goals.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="47" width="553" height="18" uuid="4b4f593e-bf62-42e2-b549-d27efcaaeaa3"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[In-Appropriate Use]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="3" y="71" width="550" height="132" uuid="04ed1ff4-72da-4ac9-a4ad-ce517d404571"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[1.      The creation nor exchange of harassing, obscene or threatening messages.
+2.      The unauthorized exchange of proprietary information (or any other privileged) and confidentiality of sensitive information.
+3.      The creation nor exchange of information violating any laws, including copyright laws.
+4.      Knowingly transmitting message containing virus, worms or Trojan.
+5.      Misrepresentation on the identity of the email sender.
+6.      The use or “attempt” to use the accounts of others without their permission.	
+7.      Forwarding chain letters, jokes, advertisements, junk mail or any electronic mails not relevant to our nature of work.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="3" y="208" width="551" height="20" uuid="0f2588f9-c51e-4086-8dab-0b11f4ab80c0"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Expiration/Deactivation/Deletion of Accounts]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="3" y="236" width="552" height="23" uuid="25d4cd8c-0b9e-45f1-82c0-18a438ea8ae0"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[An account will be Expired/Deactivated or deleted under the following conditions.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="3" y="264" width="549" height="93" uuid="91a9b8cb-efc5-4678-a7bd-1064dafa4073"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[1.      Request by Administrator or Officer thru email for deactivation or deletion.
+2.      Inactive account for 30 calendar days (without prior notice), or disabled accounts due to inactivity, users may request for account re activation thru email.	
+3.      Reactivation of account due to improper use is subject for approval from Officer or Administrator.
+4.      Resigned, Retired, and Terminated employees or End of Contract - User account will be terminated a week before the Users last day of work.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="367" width="554" height="42" uuid="576e25b9-9b44-4280-8c4b-3848ed3576a3"/>
+				<textElement>
+					<font size="11"/>
+				</textElement>
+				<text><![CDATA[By signing this form, I agree that I have read and understand the conditions on the user account issued, and I agree to abide with the same.]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch">
+			<staticText>
+				<reportElement x="420" y="10" width="30" height="20" uuid="1e5c1e5c-c76b-4c60-a0e2-67f8ad2bedaf"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Page:]]></text>
+			</staticText>
+			<textField evaluationTime="Master">
+				<reportElement x="460" y="10" width="92" height="19" uuid="eee43287-fa5e-4386-99c2-aec0d02c2ce1"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{MASTER_CURRENT_PAGE}  + " of " + $V{MASTER_TOTAL_PAGES}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnFooter>
+</jasperReport>
